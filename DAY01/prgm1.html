@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dom access</title>
+    <style>
+        h1{
+            color: blue;
+        }
+        button{
+            padding:10px;
+            background-color: aqua;
+            
+        }
+    </style>
+</head>
+<body>
+    <h1>DOM</h1>
+    <h1 class="style1" >sample</h1>
+
+    <p class="style1">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veritatis in provident eveniet esse, dolorum reprehenderit quos beatae accusantium eius. Debitis voluptatibus ducimus quos nam magnam id asperiores laudantium eaque distinctio?
+
+    </p>
+
+    <p id="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit nobis adipisci deserunt, aperiam ipsum consequatur expedita voluptatum saepe repellat eos cupiditate dolor velit sapiente numquam quos ipsam tenetur odio distinctio.
+
+    </p>
+    <button onclick="change()">Click</button>
+    
+</body>
+<script>
+    function change(){
+
+                          //document.getElementsByTagName
+        // const content = document.getElementsByTagName('h1')
+        // console.log(content[0]);
+        // content[0].innerHTML = "Document object Model"
+        // content[0].style.fontSize="100px"
+
+        // const content = document.getElementsByClassName('style1')
+        // console.log(content[1]);
+        // content[1].style.backgroundColor="yellow"
+
+
+        // const data=document.getElementById('para')
+        // console.log(data);
+        
+        const datas = document.querySelectorAll('#para')
+        console.log(datas);
+        
+
+
+        
+    }
+</script>
+</html>
