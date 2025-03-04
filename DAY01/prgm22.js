@@ -9,7 +9,8 @@ function AgeCheck(){
             result.innerHTMl ="eligible"
             result.style.color="green"
             
-        } else if(Age.value<18) {
+        } 
+        else if(Age.value<18) {
             result.innerHtml =" not eligible"
             result.style.color="red"
 
@@ -22,9 +23,10 @@ function AgeCheck(){
         }
 
         
-    } else {
+    } 
+    else {
            result.innerHTMl =" please enter a value"
-            result.style.color="blue"
+        result.style.color="blue"
         
     }
 

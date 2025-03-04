@@ -32,22 +32,45 @@
 <script>
     function change(){
 
-                          //document.getElementsByTagName
-        // const content = document.getElementsByTagName('h1')
+             //document.getElementsByTagName
+         //const content = document.getElementsByTagName('h1')   //returns html collection
         // console.log(content[0]);
-        // content[0].innerHTML = "Document object Model"
-        // content[0].style.fontSize="100px"
-
-        // const content = document.getElementsByClassName('style1')
-        // console.log(content[1]);
-        // content[1].style.backgroundColor="yellow"
+         //content[0].innerHTML = "Document object Model"
+         //content[0].style.fontSize="100px"
 
 
-        // const data=document.getElementById('para')
-        // console.log(data);
+                        //document.getElementsByClassName              
+       // const content = document.getElementsByClassName('style1')   //returns an html collection
+        //console.log(content[1]);
+        //content[1].style.backgroundColor="yellow"
+
+
+
+                       //document.getElementById
+       // const data=document.getElementById('para')   //returns directly the element
+       // console.log(data);
         
-        const datas = document.querySelectorAll('#para')
-        console.log(datas);
+
+
+                    //document.querySelector
+        // const datas = document.querySelector('#para')
+        // console.log(datas);
+
+         //or
+
+        // const data1 = document.querySelector('.style1')  //returns the first matching element
+        // console.log(data1);
+
+
+
+                   // document.querySelectorAll
+         const data1 = document.querySelectorAll('.style1')  //returns all matching elements has node list nothing but an array
+         console.log(data1);
+
+
+
+
+
         
 
 
