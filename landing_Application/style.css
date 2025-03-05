@@ -1,0 +1,11 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+header{
+    background-image: url('https://askleo.com/wp-content/uploads/2018/10/internet.jpg');
+    width: 100%;
+    height: 400px;
+    background-size: cover;
+}
